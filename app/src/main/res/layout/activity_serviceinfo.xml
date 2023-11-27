@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".VehicleInfo">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:background="#FDFDFD"
+            android:layout_width="match_parent"
+            android:text="Add Service Record"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+
+    <TableRow android:layout_margin="30dp">
+
+        <TextView
+            android:text="Service No:"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText android:hint="SA-0000"
+            android:id="@+id/serviceNo"/>
+
+    </TableRow>
+
+    <TableRow android:layout_margin="30dp">
+
+        <TextView
+            android:text="Service Station Name"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText android:hint="Toyota Lanka"
+            android:id="@+id/serviceName"/>
+    </TableRow>
+
+    <TableRow android:layout_margin="30dp">
+
+        <TextView
+            android:text="Service Date"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText android:hint="2022-11-05"
+            android:id="@+id/serviceDate"/>
+    </TableRow>
+
+    <TableRow android:layout_margin="30dp">
+
+        <TextView
+            android:text="Service Description"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText android:hint="Monthly Service"
+            android:id="@+id/serviceDesc"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="385dp"
+        android:layout_margin="30dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="Previous"
+            android:textColor="@color/AntiqueWhite" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="Add Service Record"
+            android:textColor="@color/AntiqueWhite" />
+    </TableRow>
+
+
+</TableLayout>

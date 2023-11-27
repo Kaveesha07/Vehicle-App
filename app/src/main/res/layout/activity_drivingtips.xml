@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Driving Tips"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgStartClick"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/start" />
+
+        <TextView
+            android:id="@+id/startV"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="How to Start Vehicle"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgGearClick"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/gear" />
+
+        <TextView
+            android:id="@+id/GearV"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="20dp"
+            android:text="How to change Gear"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgSignalLightClick"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/signal" />
+
+        <TextView
+            android:id="@+id/signalV"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="How to put signal light"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgStopVehicleClick"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/start" />
+
+        <TextView
+            android:id="@+id/stopV"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="How to Stop Vehicle"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+    <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnbackHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/Black"
+            android:text="Back to Home"
+            android:textColor="@color/white" />
+    </TableRow>
+
+</TableLayout>

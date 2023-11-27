@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:maxWidth="400dp"
+            android:layout_gravity="center"
+            android:maxHeight="300dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/os_vehicle_manager" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="40dp"/>
+    </TableRow>
+    <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnaddVehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="My Vehicles"
+            android:textColor="@color/AntiqueWhite" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btncheckList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="Check List"
+            android:textColor="@color/AntiqueWhite" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btndrivingTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="Driving Tips"
+            android:textColor="@color/AntiqueWhite" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="136dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnaddServiceRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="My Services"
+            android:textColor="@color/AntiqueWhite" />
+    </TableRow>
+</TableLayout>

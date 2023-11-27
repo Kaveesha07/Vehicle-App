@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_changegear.xml" value="0.19947916666666668" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_changsignal.xml" value="0.2" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_drivingtips.xml" value="0.264" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_homepage.xml" value="0.17760416666666667" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_monthlychecklist.xml" value="0.17760416666666667" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_serviceinfo.xml" value="0.17447916666666666" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_servicerecords.xml" value="0.17760416666666667" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_vehicleinfo.xml" value="0.2" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_vehiclelist.xml" value="0.2" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_vehiclestart.xml" value="0.264" />
+        <entry key="..\:/Other Learning/mobile app/Asignment2_E2041363/app/src/main/res/layout/activity_vehiclestop.xml" value="0.17135416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

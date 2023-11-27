@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:background="#FDFDFD"
+                android:text="My Vehicles"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:layout_marginBottom="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="wrap_content"
+                android:layout_height="238dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnaddVehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/Black"
+                android:text="Add Vehicle"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnremoveVehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/Black"
+                android:text="Remove Vehicle"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnbackHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/Black"
+                android:text="Back to Home"
+                android:textColor="@color/white" />
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Asignment2_E2041363</string>
+    <string-array name="vehicleType">
+        <item>Car</item>
+        <item>Van</item>
+        <item>Lorry</item>
+        <item>Cab</item>
+        <item>Bus</item>
+        <item>Motor Bicycle</item>
+        <item>Motor Tricycle</item>
+    </string-array>
+    <string-array name="fuelType">
+        <item>Diesel</item>
+        <item>Petrol</item>
+        <item>Electric</item>
+    </string-array>
+</resources>

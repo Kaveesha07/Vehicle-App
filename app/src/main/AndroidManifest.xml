@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.k_tech.asignment2_e2041363">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Asignment2_E2041363"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DrivingTips"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.DrivingTips" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.HomePage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MonthlyChecklist"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.MonthlyChecklist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ServiceRecods"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.ServiceRecods" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VehicleInfo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.VehicleInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VehicleList"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.VehicleList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VehicleStart"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.VehicleStart" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChangeGear"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.ChangeGear" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChangeSignal"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.ChangeSignal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VehicleStop"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.VehicleStop" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ServiceInfo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.k_tech.asignment2_e2041363.ServiceInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

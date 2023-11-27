@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FDFDFD"
+            android:text="Check List"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_horizontal">
+
+        <TextView android:layout_marginTop="10dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/ch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service you vehicle"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/ch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Oil"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/ch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CheckBox"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/ch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check type pressure"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/ch6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clean inside the vehicle"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="Update"
+            android:textColor="@color/AntiqueWhite" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnGoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/Black"
+            android:text="Back to Home"
+            android:textColor="@color/AntiqueWhite" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

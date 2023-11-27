@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:background="#FDFDFD"
+            android:text="How to Change Signal"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgStartProcess"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="70dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="200dp"
+            android:maxHeight="150dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/gear" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:background="#FDFDFD"
+            android:text="Procedure"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/Black"
+        android:orientation="vertical"
+   >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:outlineProvider="none"
+            android:text="On most cars, the turn signal lever is located to the left of the steering wheel. Shifting the lever up indicates a right turn and shifting it down indicates a left turn. Your turn signal should turn off after a turn or a lane change, but if it does not, you should turn it off manually, as soon as possible"
+            android:textAlignment="center"
+            android:textColor="@color/AntiqueWhite"
+            android:textIsSelectable="false"
+            android:textSize="16sp" />
+    </ScrollView>
+    <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnbackHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:backgroundTint="@color/Black"
+            android:text="Previous"
+            android:textColor="@color/white" />
+    </TableRow>
+
+
+
+
+
+
+
+</TableLayout>
